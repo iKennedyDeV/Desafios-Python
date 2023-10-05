@@ -1,0 +1,10 @@
+nome = input("Digite uma palavra: ")
+
+print(f"o tipo primitivo desse valor é {type(nome)}")
+print(f"Só tem espaços? { nome.isspace() }") 
+print(f"é um numero? { nome.isnumeric()}") 
+print(f"é um alfabetico? { nome.isalpha()  }") 
+print(f"É um Alfanumerico ?  {nome.isalnum()}") 
+print(f"Está em Maiusculo?  { nome.isupper()}")
+print(f"Está em minusculas?  {nome.islower() }")
+print(f"Está Capitalizada?  {nome.istitle() }")
